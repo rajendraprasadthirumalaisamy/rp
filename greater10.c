@@ -1,7 +1,7 @@
 #include <stdio.h>
 void main() {
-    int i = 65;
-    int k = 120;
+    int i =10;
+    int k = 20;
     printf(" value of i=%d k=%d before swapping", i, k);
 
     i = i ^ k;
