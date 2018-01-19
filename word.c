@@ -10,7 +10,7 @@ void main()
 
     char s[200];
 
-    int count = 0, i;
+    int c= 0, i;
 
  
 
@@ -24,10 +24,10 @@ void main()
 
         if (s[i] == ' ')
 
-            count++;    
+            c++;    
 
     }
 
-    printf("number of words in given string are: %d\n", count + 1);
+    printf("number of words in given string are: %d\n", c + 1);
 
 }
