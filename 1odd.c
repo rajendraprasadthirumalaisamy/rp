@@ -2,15 +2,15 @@
  
 int main()
 {
-   int n;
+   int n1,n;
  
    printf("Enter an integer\n");
-   scanf("%d", &n);
- 
+   scanf("%d", &n1);
+ n=n1+n1;
    if (n%2 == 0)
-      printf("Even%d,%d\n",n+2,n-2);
+      printf("Even\n");
    else
-      printf("Odd%d,%d\n",n-2,n+2);
+      printf("Odd\n");
  
    return 0;
 }
