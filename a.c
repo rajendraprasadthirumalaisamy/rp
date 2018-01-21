@@ -1,7 +1,7 @@
 #include<stdio.h>
-#include<ctype.h>
+
 #include<string.h>
-int main()
+void main()
 {
 int i; 
  int count=0;
@@ -16,5 +16,5 @@ count++;
 }
 }
 printf("count: %d ",count);
-return 0;
+
 }
