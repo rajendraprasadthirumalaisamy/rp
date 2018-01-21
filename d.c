@@ -1,6 +1,6 @@
 #include<stdio.h>
-#include<conio.h>
-int search(int arr[], int n, int x)
+
+int search(int arr[], int n,  x)
 {
 int i;
 for (i = 0; i < n; i++)
@@ -22,5 +22,5 @@ scanf("%d",&arr[i]);
 scanf("%d", &x);
 printf("%d\n", search(arr, n, x));
 } 
-return 0;
+
 }
