@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main()
+void main()
 {
 	int a[10],j,i,min;
 	for(i=0;i<10;i++)
@@ -7,7 +7,7 @@ int main()
 	min=a[0];
 	for(j=i-1;j<10;j++)
 	{
-		if(a[i]<min)
+		if(a[i]>min)
 		{
 			min=a[i];
 		}
