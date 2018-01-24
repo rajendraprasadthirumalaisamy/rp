@@ -8,7 +8,7 @@ void main()
 
 {
 
-    char s[200];
+    char s[100];
 
     int c= 0, i;
 
