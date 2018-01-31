@@ -1,15 +1,15 @@
 #include <stdio.h>
 int main()
 {
-    int number, i;
+    int n, i;
 
     printf("Enter a positive integer: ");
-    scanf("%d",&number);
+    scanf("%d",&n);
 
-    printf("Factors of %d are: ", number);
-    for(i=1; i <= number; ++i)
+    printf("Factors of %d are: ", n);
+    for(i=1; i <= n; ++i)
     {
-        if (number%i == 0)
+        if (n%i == 0)
         {
             printf("%d ",i);
         }
