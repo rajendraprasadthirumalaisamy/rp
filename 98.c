@@ -31,5 +31,5 @@ if(a[i]!=b[i])
 c++;
 }
 }
-printf("The no. of changes is: %d",c);
+printf("The no. of changes is: %d\n",c);
 }
