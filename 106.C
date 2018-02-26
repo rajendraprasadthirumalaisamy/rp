@@ -1,10 +1,10 @@
 #include<stdio.h>
 void main()
 {
-    int a;
+    int C;
     printf("enter the choice");
-    scanf("%d",&a);
-    switch(a)
+    scanf("%d",&C);
+    switch(C)
     {
      
     case 1:
